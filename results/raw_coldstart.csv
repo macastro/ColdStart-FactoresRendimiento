@@ -1,0 +1,51 @@
+timestamp,config,repetition,status,image_load_ms,ready_ms,app_init_ms,runtime_sandbox_approx_ms,mode,gpu,cuda_init_ok,cuda_device_count,returncode,command,stdout,stderr
+2026-07-06T19:32:11.483820,runc_cpu,1,ok,1316.629519,1986.752105,1.605424,1985.146681,cpu,False,False,,0,docker run --rm --pull=never -e MODE=cpu coldstart-app:prelim,"{""mode"": ""cpu"", ""ready"": true, ""gpu_available"": false, ""cuda_init_ok"": false, ""cuda_device_count"": null, ""error"": null, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 1.605424}
+",
+2026-07-06T19:32:15.827505,runc_cpu,2,ok,1344.347509,1837.591901,1.973702,1835.618199,cpu,False,False,,0,docker run --rm --pull=never -e MODE=cpu coldstart-app:prelim,"{""mode"": ""cpu"", ""ready"": true, ""gpu_available"": false, ""cuda_init_ok"": false, ""cuda_device_count"": null, ""error"": null, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 1.973702}
+",
+2026-07-06T19:32:19.704528,runc_cpu,3,ok,1002.382921,1771.061443,1.668287,1769.393156,cpu,False,False,,0,docker run --rm --pull=never -e MODE=cpu coldstart-app:prelim,"{""mode"": ""cpu"", ""ready"": true, ""gpu_available"": false, ""cuda_init_ok"": false, ""cuda_device_count"": null, ""error"": null, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 1.668287}
+",
+2026-07-06T19:32:23.811837,runc_cpu,4,ok,1203.298402,1737.101664,1.453307,1735.648357,cpu,False,False,,0,docker run --rm --pull=never -e MODE=cpu coldstart-app:prelim,"{""mode"": ""cpu"", ""ready"": true, ""gpu_available"": false, ""cuda_init_ok"": false, ""cuda_device_count"": null, ""error"": null, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 1.453307}
+",
+2026-07-06T19:32:28.594703,runc_cpu,5,ok,1767.850874,1788.713594,2.76724,1785.9463540000002,cpu,False,False,,0,docker run --rm --pull=never -e MODE=cpu coldstart-app:prelim,"{""mode"": ""cpu"", ""ready"": true, ""gpu_available"": false, ""cuda_init_ok"": false, ""cuda_device_count"": null, ""error"": null, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 2.76724}
+",
+2026-07-06T19:32:32.487373,crun_cpu,1,ok,1095.949451,1733.763778,2.381911,1731.381867,cpu,False,False,,0,docker run --rm --pull=never --runtime=crun -e MODE=cpu coldstart-app:prelim,"{""mode"": ""cpu"", ""ready"": true, ""gpu_available"": false, ""cuda_init_ok"": false, ""cuda_device_count"": null, ""error"": null, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 2.381911}
+",
+2026-07-06T19:32:36.472407,crun_cpu,2,ok,1266.896803,1563.94544,2.311923,1561.633517,cpu,False,False,,0,docker run --rm --pull=never --runtime=crun -e MODE=cpu coldstart-app:prelim,"{""mode"": ""cpu"", ""ready"": true, ""gpu_available"": false, ""cuda_init_ok"": false, ""cuda_device_count"": null, ""error"": null, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 2.311923}
+",
+2026-07-06T19:32:40.645380,crun_cpu,3,ok,1274.604507,1711.914308,1.573836,1710.3404719999999,cpu,False,False,,0,docker run --rm --pull=never --runtime=crun -e MODE=cpu coldstart-app:prelim,"{""mode"": ""cpu"", ""ready"": true, ""gpu_available"": false, ""cuda_init_ok"": false, ""cuda_device_count"": null, ""error"": null, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 1.573836}
+",
+2026-07-06T19:32:44.696759,crun_cpu,4,ok,1251.938623,1568.026291,1.871515,1566.1547759999999,cpu,False,False,,0,docker run --rm --pull=never --runtime=crun -e MODE=cpu coldstart-app:prelim,"{""mode"": ""cpu"", ""ready"": true, ""gpu_available"": false, ""cuda_init_ok"": false, ""cuda_device_count"": null, ""error"": null, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 1.871515}
+",
+2026-07-06T19:32:48.795305,crun_cpu,5,ok,1297.244304,1658.729807,2.175578,1656.5542289999999,cpu,False,False,,0,docker run --rm --pull=never --runtime=crun -e MODE=cpu coldstart-app:prelim,"{""mode"": ""cpu"", ""ready"": true, ""gpu_available"": false, ""cuda_init_ok"": false, ""cuda_device_count"": null, ""error"": null, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 2.175578}
+",
+2026-07-06T19:32:53.721929,runsc_cpu,1,ok,1052.275207,2775.158545,1.703093,2773.4554519999997,cpu,False,False,,0,docker run --rm --pull=never --runtime=runsc -e MODE=cpu coldstart-app:prelim,"{""mode"": ""cpu"", ""ready"": true, ""gpu_available"": false, ""cuda_init_ok"": false, ""cuda_device_count"": null, ""error"": null, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 1.703093}
+",
+2026-07-06T19:32:58.624850,runsc_cpu,2,ok,1191.008366,2551.836172,4.522928,2547.313244,cpu,False,False,,0,docker run --rm --pull=never --runtime=runsc -e MODE=cpu coldstart-app:prelim,"{""mode"": ""cpu"", ""ready"": true, ""gpu_available"": false, ""cuda_init_ok"": false, ""cuda_device_count"": null, ""error"": null, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 4.522928}
+",
+2026-07-06T19:33:03.309616,runsc_cpu,3,ok,1209.250277,2278.570318,5.721865,2272.848453,cpu,False,False,,0,docker run --rm --pull=never --runtime=runsc -e MODE=cpu coldstart-app:prelim,"{""mode"": ""cpu"", ""ready"": true, ""gpu_available"": false, ""cuda_init_ok"": false, ""cuda_device_count"": null, ""error"": null, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 5.721865}
+",
+2026-07-06T19:33:07.203262,runsc_cpu,4,ok,1025.500745,1909.959178,3.545412,1906.4137660000001,cpu,False,False,,0,docker run --rm --pull=never --runtime=runsc -e MODE=cpu coldstart-app:prelim,"{""mode"": ""cpu"", ""ready"": true, ""gpu_available"": false, ""cuda_init_ok"": false, ""cuda_device_count"": null, ""error"": null, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 3.545412}
+",
+2026-07-06T19:33:11.929590,runsc_cpu,5,ok,1223.621151,2378.073686,1.611633,2376.462053,cpu,False,False,,0,docker run --rm --pull=never --runtime=runsc -e MODE=cpu coldstart-app:prelim,"{""mode"": ""cpu"", ""ready"": true, ""gpu_available"": false, ""cuda_init_ok"": false, ""cuda_device_count"": null, ""error"": null, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 1.611633}
+",
+2026-07-06T19:33:16.951919,runc_gpu,1,ok,1215.760944,2624.313653,119.878803,2504.43485,gpu,True,True,1,0,docker run --rm --pull=never --gpus all -e MODE=gpu coldstart-app:prelim,"{""mode"": ""gpu"", ""ready"": true, ""gpu_available"": true, ""cuda_init_ok"": true, ""cuda_device_count"": 1, ""error"": null, ""cuda_rc"": 0, ""cuda_count_rc"": 0, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 119.878803}
+",
+2026-07-06T19:33:21.350797,runc_gpu,2,ok,1148.950962,2197.724363,156.432511,2041.2918519999998,gpu,True,True,1,0,docker run --rm --pull=never --gpus all -e MODE=gpu coldstart-app:prelim,"{""mode"": ""gpu"", ""ready"": true, ""gpu_available"": true, ""cuda_init_ok"": true, ""cuda_device_count"": 1, ""error"": null, ""cuda_rc"": 0, ""cuda_count_rc"": 0, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 156.432511}
+",
+2026-07-06T19:33:26.237328,runc_gpu,3,ok,1329.641874,2459.34511,132.719894,2326.6252160000004,gpu,True,True,1,0,docker run --rm --pull=never --gpus all -e MODE=gpu coldstart-app:prelim,"{""mode"": ""gpu"", ""ready"": true, ""gpu_available"": true, ""cuda_init_ok"": true, ""cuda_device_count"": 1, ""error"": null, ""cuda_rc"": 0, ""cuda_count_rc"": 0, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 132.719894}
+",
+2026-07-06T19:33:31.086201,runc_gpu,4,ok,1315.17632,2381.577991,113.968736,2267.6092550000003,gpu,True,True,1,0,docker run --rm --pull=never --gpus all -e MODE=gpu coldstart-app:prelim,"{""mode"": ""gpu"", ""ready"": true, ""gpu_available"": true, ""cuda_init_ok"": true, ""cuda_device_count"": 1, ""error"": null, ""cuda_rc"": 0, ""cuda_count_rc"": 0, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 113.968736}
+",
+2026-07-06T19:33:35.844556,runc_gpu,5,ok,1162.075589,2462.238481,112.771372,2349.4671089999997,gpu,True,True,1,0,docker run --rm --pull=never --gpus all -e MODE=gpu coldstart-app:prelim,"{""mode"": ""gpu"", ""ready"": true, ""gpu_available"": true, ""cuda_init_ok"": true, ""cuda_device_count"": 1, ""error"": null, ""cuda_rc"": 0, ""cuda_count_rc"": 0, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 112.771372}
+",
+2026-07-06T19:33:40.329142,crun_gpu_optional,1,ok,1085.388035,2305.162594,141.519257,2163.643337,gpu,True,True,1,0,docker run --rm --pull=never --runtime=crun --gpus all -e MODE=gpu coldstart-app:prelim,"{""mode"": ""gpu"", ""ready"": true, ""gpu_available"": true, ""cuda_init_ok"": true, ""cuda_device_count"": 1, ""error"": null, ""cuda_rc"": 0, ""cuda_count_rc"": 0, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 141.519257}
+",
+2026-07-06T19:33:44.929551,crun_gpu_optional,2,ok,1160.142133,2279.93201,118.216087,2161.715923,gpu,True,True,1,0,docker run --rm --pull=never --runtime=crun --gpus all -e MODE=gpu coldstart-app:prelim,"{""mode"": ""gpu"", ""ready"": true, ""gpu_available"": true, ""cuda_init_ok"": true, ""cuda_device_count"": 1, ""error"": null, ""cuda_rc"": 0, ""cuda_count_rc"": 0, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 118.216087}
+",
+2026-07-06T19:33:49.644717,crun_gpu_optional,3,ok,1174.251069,2306.096499,124.753424,2181.343075,gpu,True,True,1,0,docker run --rm --pull=never --runtime=crun --gpus all -e MODE=gpu coldstart-app:prelim,"{""mode"": ""gpu"", ""ready"": true, ""gpu_available"": true, ""cuda_init_ok"": true, ""cuda_device_count"": 1, ""error"": null, ""cuda_rc"": 0, ""cuda_count_rc"": 0, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 124.753424}
+",
+2026-07-06T19:33:54.479279,crun_gpu_optional,4,ok,1269.772322,2278.310334,91.954708,2186.3556259999996,gpu,True,True,1,0,docker run --rm --pull=never --runtime=crun --gpus all -e MODE=gpu coldstart-app:prelim,"{""mode"": ""gpu"", ""ready"": true, ""gpu_available"": true, ""cuda_init_ok"": true, ""cuda_device_count"": 1, ""error"": null, ""cuda_rc"": 0, ""cuda_count_rc"": 0, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 91.954708}
+",
+2026-07-06T19:33:59.160979,crun_gpu_optional,5,ok,1281.592479,2233.811325,91.941249,2141.870076,gpu,True,True,1,0,docker run --rm --pull=never --runtime=crun --gpus all -e MODE=gpu coldstart-app:prelim,"{""mode"": ""gpu"", ""ready"": true, ""gpu_available"": true, ""cuda_init_ok"": true, ""cuda_device_count"": 1, ""error"": null, ""cuda_rc"": 0, ""cuda_count_rc"": 0, ""digest_prefix"": ""2f43229187ba"", ""app_init_ms"": 91.941249}
+",
