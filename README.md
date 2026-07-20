@@ -50,6 +50,13 @@ Esto permite verificar inicialización del driver CUDA y detección de GPU, pero
 | `scripts/` | Scripts para preparar la traza, ejecutar mediciones y resumir resultados. | Automatiza el pipeline preliminar. |
 | `results/` | Salidas experimentales como `raw_coldstart.csv` y `summary_coldstart.csv`. | Contiene las mediciones y percentiles preliminares. |
 
+## Integración con la traza de Azure Functions 2019
+
+Se integró la traza Azure Functions 2019 al ambiente experimental. A partir de las columnas minuto 1..1440 se genera un calendario de eventos cold-start usando una política de keep-alive de 20 minutos. El calendario se reproduce con escala temporal controlada y se ejecuta sobre las configuraciones runc, crun, runsc y GPU, manteniendo constante la imagen y el patrón de llegadas.
+
+<p align="center"><img src="https://github.com/macastro/ColdStart-FactoresRendimiento/blob/master/capturas/Captura_Eventos.png"></p>
+<p align="center"><img src="https://github.com/macastro/ColdStart-FactoresRendimiento/blob/master/capturas/Captura_Resultados.png"></p>
+
 ## Limitaciones conocidas
 
 La separación entre las etapas **sandbox** y **runtime** todavía es aproximada. Será refinada en la siguiente fase usando eventos de `containerd` y logs de `runsc --debug`.
